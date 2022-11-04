@@ -27,3 +27,10 @@ Migrating to Houses (20221103060435)
   [1m[36mPerson Create (8.1ms)[0m  [1m[32mINSERT INTO "people" ("name", "house_id") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Walter White"], ["house_id", 1]]
   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
   [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people" ORDER BY "people"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people" ORDER BY "people"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPerson Load (1.5ms)[0m  [1m[34mSELECT "people".* FROM "people" ORDER BY "people"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPerson Load (0.8ms)[0m  [1m[34mSELECT "people".* FROM "people" ORDER BY "people"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPerson Load (0.6ms)[0m  [1m[34mSELECT "people".* FROM "people" ORDER BY "people"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses" ORDER BY "houses"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mHouse Load (0.6ms)[0m  [1m[34mSELECT "houses".* FROM "houses" ORDER BY "houses"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mHouse Load (0.6ms)[0m  [1m[34mSELECT "houses".* FROM "houses" ORDER BY "houses"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
